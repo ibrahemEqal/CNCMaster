@@ -5,11 +5,11 @@ import Tq2 from '../img/Tq2.jpeg';
 import Tq3 from '../img/Tq3.jpeg';
 import Tq4 from '../img/Tq4.jpeg';
 import Header from "./Header";
-const TqCard =()=>{
+const TqCard =({ShowHeader=true})=>{
 
     return(
         <div className="Tq-Card">
-                <Header/>
+            {ShowHeader && <Header />}
         <ProductCard image={Tq1} title="₪تعليقة منزل 79" description="تعليقة لمدخل المنزل باسم صاحب المنزل من الخشب والاكريلك"
         buttonText="شراء"
         />

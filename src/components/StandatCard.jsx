@@ -5,10 +5,10 @@ import St1 from "../img/St1.jpg";
 import St2 from "../img/St2.jpg";
 import St3 from "../img/St3.jpg";
 
-const StCard = () => {
+const StCard = ({ShowHeader=true}) => {
   return (
     <div className="Tq-Card">
-        <Header/>
+        {ShowHeader && <Header />}
       <ProductCard
         image={St1}
         title="₪ستاندات ذهب 200"

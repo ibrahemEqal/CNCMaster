@@ -3,10 +3,10 @@ import ProductCard from "./ProductCard";
 import Header from "./Header";
 import Tw1 from '../img/Tw1.jpg'
 import Tw2  from '../img/T2.jpg'
-const TwCard = () => {
+const TwCard = ({ShowHeader=true}) => {
   return (
     <div className="Tq-Card">
-        <Header/>
+        {ShowHeader && <Header />}
       <ProductCard
         image={Tw1}
         title="₪توزيعات بيبي 35 (x50)"
