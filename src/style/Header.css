@@ -1,0 +1,70 @@
+/* تصميم الهيدر */
+.page-Header {
+    background: linear-gradient(135deg, #2e3b4e, #4f5d75); /* تدرج لوني رمادي مع لمسات ذهبية */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1), 0 0 0 5px rgba(255, 215, 0, 0.7); 
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* اسم العلامة التجارية */
+.Brand-Name h1 {
+    color: #ffd700;
+    font-size: 3.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Brand-Name h5 {
+    color: #fff;
+    position: relative;
+    top: -1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* تصميم الأزرار */
+.nav-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px; /* إضافة تباعد بين الأزرار */
+    padding: 8px 15px;
+    border-radius: 8px; /* جعل الأزرار ذات أطراف دائرية */
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    color: #000;
+    background-color: #ffd700; /* خلفية عند التمرير */
+    transform: translateY(-5px); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(255, 215, 0, 0.7); /* تأثير التركيز */
+}
+
+/* تأثير على الهيدر عند التمرير */
+.page-Header:hover {
+    background: linear-gradient(135deg, #3e4c5e, #596f89); /* تغيير التدرج اللوني عند التمرير */
+}
+
+/* تصميم للـ Nav */
+.Head-Nav nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
